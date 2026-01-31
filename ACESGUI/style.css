@@ -59,12 +59,18 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 .event-box {
-    width: 220px;
-    height: 150px;
-    border: 1 px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 14px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+    position: relative;
+    cursor: pointer;
 }
+
+.event-box :hover {
+    transform: scale(1.5);
+    transition: 0.2s ease;
+}
+
+
